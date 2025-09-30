@@ -1,0 +1,22 @@
+/* client/src/App.css */
+.app {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 12px;
+}
+.app-header { margin-bottom: 12px; }
+.meta { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+.meta input { padding:6px; margin-left:6px; }
+.editor {
+  width: 100%;
+  height: 60vh;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.status { margin-top:6px; color:#333; }
+.app-footer { margin-top:10px; color:#666; }
